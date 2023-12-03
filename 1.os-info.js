@@ -10,4 +10,4 @@ console.log('Arquitectura', os.arch());
 console.log('CPUs', os.cpus());  // <====== vamos a poder escalar procesos en Node
 console.log('Memoria Libre', os.freemem() / 1024 / 1024);
 console.log('Memoria Total', os.totalmem() / 1024 / 1024);
-console.log('uptime', os.uptime() / 60 / 60 / 24 , 'hours' );
+console.log('uptime', os.uptime() / 60 / 60 / 24, 'hours');
